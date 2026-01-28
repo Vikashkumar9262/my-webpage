@@ -47,6 +47,7 @@ const Experience = () => {
               <li>AWS: Academy Cloud Operations Feb 2024</li>
               <li>AWS: Academy Cloud Foundation Dec 2023</li>
               <li>AWS: Academy Data Engineering July 2023</li>
+              <li>Internal Hackathon (Team TEAM BIT) | CGC Landran, 2023</li>
             </ul>
           </CardContent>
         </Card>
