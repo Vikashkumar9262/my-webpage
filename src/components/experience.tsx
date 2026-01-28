@@ -29,7 +29,7 @@ const Experience = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Please provide a short description of your responsibilities and accomplishments during your internship.
+                Managed all data handling for the completion of a college ERP application.
               </p>
             </CardContent>
           </Card>
