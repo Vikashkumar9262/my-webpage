@@ -41,6 +41,7 @@ const Experience = () => {
           </CardHeader>
           <CardContent>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
+              <li>TechTussle (Phoenix Club): Selected for state round with LSTM project (Team: Little Champ)</li>
               <li>Deloitte: Forge Tech Job Simulation Oct 2024</li>
               <li>Programiz: SQL, Python NumPy Aug 2024</li>
               <li>Programiz: Java Basics May 2024</li>
