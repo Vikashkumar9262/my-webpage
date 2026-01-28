@@ -2,9 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SkillsRadarChart } from '@/components/skills-radar-chart';
 
 const skillsData = {
-  "Quant Stack": ["Pandas", "NumPy", "Technical Analysis", "Matplotlib"],
-  "Dev Stack": ["Django", "Streamlit", "SQL", "Next.js", "React"],
-  "Cloud": ["AWS", "Azure", "Firebase"],
+  "Languages": ["Python", "SQL", "Java", "C++"],
+  "Data Analysis": ["Pandas", "NumPy", "Matplotlib", "Power BI", "Excel"],
+  "ML & AI": ["Scikit-Learn", "LangChain", "LLaMA-2", "NLP", "LSTM"],
+  "Financial": ["Technical Analysis", "Algorithmic Trading", "Candlestick Patterns"],
+  "Tools & Cloud": ["Jupyter", "VS Code", "Streamlit", "Django", "AWS", "Azure"],
+  "Core Concepts": ["EDA", "Statistical Analysis", "Dashboarding"],
 };
 
 const Skills = () => {
