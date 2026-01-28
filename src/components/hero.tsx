@@ -12,7 +12,7 @@ const Hero = () => {
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <Button asChild size="lg">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/document/d/your_resume_id/" target="_blank" rel="noopener noreferrer">
             <FileText />
             View my Resume
           </a>
