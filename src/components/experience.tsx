@@ -28,8 +28,12 @@ const Experience = () => {
           </CardHeader>
           <CardContent>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>Deloitte Certified Analyst</li>
-              <li>AWS Certified Cloud Practitioner</li>
+              <li>Deloitte: Forge Tech Job Simulation Oct 2024</li>
+              <li>Programiz: SQL, Python NumPy Aug 2024</li>
+              <li>Programiz: Java Basics May 2024</li>
+              <li>AWS: Academy Cloud Operations Feb 2024</li>
+              <li>AWS: Academy Cloud Foundation Dec 2023</li>
+              <li>AWS: Academy Data Engineering July 2023</li>
             </ul>
           </CardContent>
         </Card>
