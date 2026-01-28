@@ -1,5 +1,18 @@
 import { Button } from '@/components/ui/button';
-import { Github, FileText } from 'lucide-react';
+import { Github, FileText, Linkedin } from 'lucide-react';
+
+const KaggleIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    role="img"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    {...props}
+  >
+    <title>Kaggle</title>
+    <path d="M20.46 3.654h-3.485L12 10.239 6.966 3.654H3.518L12 15.313v5.033h1.884v-5.033z" />
+  </svg>
+);
 
 const Hero = () => {
   return (
@@ -20,7 +33,19 @@ const Hero = () => {
         <Button asChild variant="secondary" size="lg">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
             <Github />
-            Check my GitHub
+            GitHub
+          </a>
+        </Button>
+        <Button asChild variant="secondary" size="lg">
+          <a href="https://www.linkedin.com/in/vikash-kumar-5b2b9b31b" target="_blank" rel="noopener noreferrer">
+            <Linkedin />
+            LinkedIn
+          </a>
+        </Button>
+        <Button asChild variant="secondary" size="lg">
+          <a href="https://www.kaggle.com/vikashkumar9262" target="_blank" rel="noopener noreferrer">
+            <KaggleIcon />
+            Kaggle
           </a>
         </Button>
       </div>
