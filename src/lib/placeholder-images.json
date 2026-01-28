@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "llm-chat-app",
-      "description": "A screenshot of an AI chat application interface.",
-      "imageUrl": "https://images.unsplash.com/photo-1649508083072-4010347b47f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcHAlMjBzY3JlZW5zaG90fGVufDB8fHx8MTc2OTQ3NzgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "app screenshot"
+      "description": "A screenshot of a LangChain and Llama2 API demo application showing code generation.",
+      "imageUrl": "https://picsum.photos/seed/langchain-demo/600/400",
+      "imageHint": "langchain demo"
     }
   ]
 }
