@@ -73,18 +73,22 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-4">
-                <Button asChild variant="outline">
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                    <Github />
-                    Source Code
-                  </a>
-                </Button>
-                <Button asChild>
-                  <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink />
-                    Live Demo
-                  </a>
-                </Button>
+                {project.githubUrl && project.githubUrl !== '#' && (
+                  <Button asChild variant="outline">
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Github />
+                      Source Code
+                    </a>
+                  </Button>
+                )}
+                {project.demoUrl && project.demoUrl !== '#' && (
+                  <Button asChild>
+                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink />
+                      Live Demo
+                    </a>
+                  </Button>
+                )}
               </div>
             </CardFooter>
           </Card>

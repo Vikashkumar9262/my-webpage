@@ -31,7 +31,7 @@ const Hero = () => {
           </a>
         </Button>
         <Button asChild variant="secondary" size="lg">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <Github />
             GitHub
           </a>
