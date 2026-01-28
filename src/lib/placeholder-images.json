@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "llm-chat-app",
-      "description": "A collection of vintage cameras on a shelf.",
-      "imageUrl": "https://images.unsplash.com/photo-1521499672281-c8be7d37d451?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aW50YWdlJTIwY2FtZXJhc3xlbnwwfHx8fDE3Njk1NTgwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "vintage cameras"
+      "description": "A screenshot of a Langchain demo with Llama2 API, showing a code generation example.",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d1469c8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlfGVufDB8fHx8MTcxOTMzNjI3NHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "code demo"
     }
   ]
 }
