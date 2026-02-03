@@ -21,30 +21,30 @@ const Hero = () => {
         <span className="text-primary animate-pulse">&gt;</span> Vikash Kumar
       </h1>
       <p className="mt-4 max-w-2xl text-muted-foreground md:text-xl">
-        Hi, I&apos;m Vikash. I build Algorithmic Trading strategies in Python and develop AI-powered web apps.
+        Data Analyst & Quantitative Researcher. I build Algorithmic Trading strategies in Python and develop AI-powered financial tools.
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <Button asChild size="lg">
           <a href="https://drive.google.com/file/d/1zCbfyBu43idkoxe664fYXnlmOb36mF1V/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-            <FileText />
-            View my Resume
+            <FileText className="mr-2" />
+            View Resume
           </a>
         </Button>
         <Button asChild variant="secondary" size="lg">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <Github />
+          <a href="https://github.com/Vikashkumar9262?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <Github className="mr-2" />
             GitHub
           </a>
         </Button>
         <Button asChild variant="secondary" size="lg">
           <a href="https://www.linkedin.com/in/vikash-kumar-5b2b9b31b" target="_blank" rel="noopener noreferrer">
-            <Linkedin />
+            <Linkedin className="mr-2" />
             LinkedIn
           </a>
         </Button>
         <Button asChild variant="secondary" size="lg">
           <a href="https://www.kaggle.com/vikashkumar9262" target="_blank" rel="noopener noreferrer">
-            <KaggleIcon />
+            <KaggleIcon className="mr-2 h-4 w-4" />
             Kaggle
           </a>
         </Button>
